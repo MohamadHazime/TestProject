@@ -31,6 +31,33 @@ device_pools:
       - name: Google Pixel 2
         model: Google Pixel 2
         os: 8.0.0
+      - name: LG Nexus 5
+        model: D820
+        os: 5.0.1
+      - name: Motorola Moto G (AT&T)
+        model: XT1045
+        os: 4.4.4
+      - name: Samsung Galaxy A40
+        model: SM-A405F
+        os: 9.0.0
+      - name: Samsung Galaxy A5
+        model: SM-A520F
+        os: 8.0.0
+      - name: Samsung Galaxy A6
+        model: SM-A600U
+        os: 8.0.0
+      - name: Samsung Galaxy A7
+        model: SM-A750FN
+        os: 8.0.0
+      - name: Samsung Galaxy A70
+        model: SM-A705MN
+        os: 9.0.0
+      - name: Samsung Galaxy J2
+        model: SM-J260M
+        os: 8.1.0
+      - name: Samsung Galaxy Note 10
+        model: SM-N970U1
+        os: 9.0.0
 
   # - pool_name: ios pool 1
   #   pool_type: ios
@@ -52,7 +79,7 @@ test_suites:
     main: test_driver/main.dart
     tests:
       - test_driver/main_test.dart
-      - test_driver/main_test.dart
+      # - test_driver/main_test.dart
     pool_names:
       - android pool 1
       # - ios pool 1
