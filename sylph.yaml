@@ -25,6 +25,9 @@ device_pools:
       - name: Samsung Galaxy A40
         model: SM-A405F
         os: 9.0.0
+      - name: TTTTTT
+        model: TTTT
+        os: 9.0.0
 
 test_suites:
 
