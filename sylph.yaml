@@ -22,7 +22,6 @@ device_pools:
   - pool_name: android pool 1
     pool_type: android
     devices:
-    
       - name: Samsung Galaxy A40
         model: SM-A405F
         os: 9.0.0 #
