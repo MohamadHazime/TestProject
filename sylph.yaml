@@ -15,7 +15,7 @@ concurrent_runs: true
 
 # device farm config
 project_name: test concurrent runs
-default_job_timeout: 30 # minutes, set at project creation
+default_job_timeout: 100 # minutes, set at project creation
 
 device_pools:
 
@@ -75,4 +75,4 @@ test_suites:
       - android pool 1
       # - ios pool 1
 #      - iPhone 5c
-    job_timeout: 15 # minutes, set per job, over-rides default job timeout above
+    job_timeout: 100 # minutes, set per job, over-rides default job timeout above
