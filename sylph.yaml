@@ -22,9 +22,9 @@ device_pools:
   - pool_name: android pool 1
     pool_type: android
     devices:
-      - name: LG Nexus 5
-        model: D820
-        os: 5.0.1
+      # - name: LG Nexus 5
+      #   model: D820
+      #   os: 5.0.1
       - name: Motorola Moto G (AT&T)
         model: XT1045
         os: 4.4.4
