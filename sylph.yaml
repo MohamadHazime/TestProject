@@ -22,15 +22,6 @@ device_pools:
   - pool_name: android pool 1
     pool_type: android
     devices:
-#      - name: Samsung Galaxy S9 (Unlocked)
-#        model: SM-G960U1
-#        os: 8.0.0
-#      - name: Google Pixel
-#        model: Pixel
-#        os: 8.0.0
-      # - name: Google Pixel 2
-      #   model: Google Pixel 2
-      #   os: 8.0.0
       - name: LG Nexus 5
         model: D820
         os: 5.0.1
