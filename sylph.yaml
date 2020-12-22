@@ -18,7 +18,6 @@ project_name: test concurrent runs
 default_job_timeout: 10 # minutes, set at project creation
 
 device_pools:
-
   - pool_name: android pool 1
     pool_type: android
     devices:
@@ -27,7 +26,6 @@ device_pools:
         os: 9.0.0
 
 test_suites:
-
   - test_suite: example tests 1
     main: test_driver/main.dart
     tests:
