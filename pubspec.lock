@@ -91,7 +91,7 @@ packages:
       name: coverage
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.14.1"
+    version: "0.14.2"
   crypto:
     dependency: transitive
     description:
@@ -223,7 +223,7 @@ packages:
       name: node_interop
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.0"
+    version: "1.2.1"
   node_io:
     dependency: transitive
     description:
@@ -287,6 +287,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.4.4"
+  resource:
+    dependency: transitive
+    description:
+      name: resource
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.1.7"
+  screenshots:
+    dependency: "direct main"
+    description:
+      name: screenshots
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.2.1"
   shelf:
     dependency: transitive
     description:
@@ -307,7 +321,7 @@ packages:
       name: shelf_static
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.2.8"
+    version: "0.2.9+1"
   shelf_web_socket:
     dependency: transitive
     description:
@@ -417,7 +431,7 @@ packages:
       name: vm_service
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "5.2.0"
+    version: "5.5.0"
   vm_service_client:
     dependency: transitive
     description:
@@ -452,7 +466,7 @@ packages:
       name: webkit_inspection_protocol
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.3"
+    version: "0.7.4"
   yaml:
     dependency: transitive
     description:

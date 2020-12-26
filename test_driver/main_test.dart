@@ -14,6 +14,11 @@ void main() {
       if (driver != null) driver.close();
     });
 
+    test('check flutter driver health', () async {
+      final health = await driver.checkHealth();
+      expect(health.status, HealthStatus.ok);
+    });
+
     test('tap on the floating action button; verify counter', () async {
       // Finds the floating action button (fab) to tap on
       SerializableFinder fab = find.byTooltip('Increment');
